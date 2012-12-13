@@ -1,0 +1,308 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link rel="stylesheet" type="text/css" media="all" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/menu.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/jquery_ctrls.css"/>
+
+        <link rel="stylesheet" type="text/css" media="all" href="css/chrome_hack.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/ie_hack.css"/>
+
+
+        <script type="text/javascript" src="js/jquery-1.6.4.js"></script>
+        <script type="text/javascript" src="js/jquery.watermark.min.js"></script>
+        <script type="text/javascript" src="js/HomeUI.js"></script>
+
+        <script type="text/javascript">
+        
+            $(function () {
+                HomeUI.init();
+                
+            });
+        </script>
+
+    </head>
+    <body>
+        <!--HEADER{-->
+        <div id="header-bg" class="center">
+            <div class="center-wrapper">
+                <a href="#" id="logo" class="left"></a>
+                <div id="phone" class="left">
+                    <a href="tel:13000000" id="lnkTelEn"></a>
+                    <a href="tel:13000000" id="lnkTelNum"></a>
+                </div>
+                <div id="search-n-btns" class="right">
+                    <div id="search-wrapper">
+                        <div id="tbSearch-bg" class="left">
+                            <input type="text" value="" id="tbSearch" name="tbSearch" class=""></input>
+                        </div>
+                        <a href="#" class="left" id="btnSearch"></a>
+                    </div>
+                    <div class="clr"></div>
+                    <div id="btns-wrapper">
+                        <a href="#" id="btnHome" name="btnHome" class="btn-s left">Home</a>
+                        <a href="#" id="btnWhatsNew" name="btnWhatsNew" class="btn-s left">What's New</a>
+                        <a href="#" onclick="HomeUI.toggleContactList();" id="btnContact" name="btnContact" class="btn-s"><span>Contact Us</span></a>
+                        <div id="contact-list" style="display:none;">
+                            <ul>
+                                <li><a href="#">Head Office</a></li>
+                                <li><a href="#">VIC</a></li>
+                                <li><a href="#">NSW</a></li>
+                                <li><a href="#">QLD</a></li>                                    
+                                <li><a href="#">SA</a></li>
+                                <li><a href="#">WA</a></li>                                    
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <!--}HEADER-->
+
+        <!--MENU{-->
+        <div id="menu-bg" class="center">
+            <div class="center-wrapper" id="menu-wrapper">
+                <ul>
+                    <li class="first"><a href="#" class="lnkMenuMain">
+                            Products & Services
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Before & After
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            How it works
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            FAQ
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Testimonials
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Comparison Chart
+                        </a></li>
+                    <li><a href="#" class="lnkMenuMain">
+                            Quotation
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Business Opportunities
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--}MENU-->
+
+        <!--VIDEO{-->
+        <div id="video-bg" class="center">
+            <div id="video-bg-lv2">
+                <div id="video-intro"  class="center-wrapper">
+                    <div  class="left" id="video-wrapper">
+
+                    </div>
+                    <div class="right" id="intro">
+                        <h1>Inner Bath can put a New Bath over your Old Bath</h1>
+                        <p>
+                            Established in 1986, Inner bath are the pioneers in Australia of manufacturing technology and patented installation 
+                            procedures for Bath and Shower Liners.
+                        </p>
+                        <p>
+                            Why resurface or spray paint your old bath or shower when you can restore, rejuvenate and renovate with a Brand New Acrylic Bath or Shower Tray Liner in less than 3 hours!
+                        </p>
+                        <p>
+                            <a href="#" id="btnQuote">REQUEST QUOTE</a>
+                            <span class="or">or</span>
+                            <a href="#" id="lnkFindMore">Find out more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--}VIDEO-->
+        <div class="clr"></div>
+        <!--BODY{-->
+        <div id="main-bg" class="center">
+            <div class="center-wrapper" id="home-wrapper">
+                <div class="left" id="home-left">
+                    <div id="prd-services">
+                        <h1>Our Products & Services</h1>
+                        <!--BLOCK{-->
+                        <div class="block">
+                            <div class="left home-img">
+                                <img src="images/home1.jpg"/>
+                            </div>
+                            <div class="right home-desc">
+                                <h2><a href="#">General Information</a></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. quis enim.</p>
+                            </div>
+                        </div>
+                        <!--}BLOCK-->
+
+                        <!--BLOCK{-->
+                        <div class="block">
+                            <div class="left home-img">
+                                <img src="images/home2.jpg"/>
+                            </div>
+                            <div class="right home-desc">
+                                <h2><a href="#">Before & After</a></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                            </div>
+                        </div>
+                        <!--}BLOCK-->
+
+                        <!--BLOCK{-->
+                        <div class="block">
+                            <div class="left home-img">
+                                <img src="images/home3.jpg"/>
+                            </div>
+                            <div class="right home-desc">
+                                <h2><a href="#">How It Works</a></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. ssa quis enim.</p>
+                                <a href="#" class="btnRound">View Testimonials</a>
+                            </div>
+                        </div>
+                        <!--}BLOCK-->
+                    </div>
+                    <div class="clr"></div>
+                    <div id="biz-op">
+                        <h1>Business Opportunities</h1>
+                        <!--BLOCK{-->
+                        <div class="block">
+                            <div class="left home-img">
+                                <img src="images/home4.jpg"/>
+                            </div>
+                            <div class="right home-desc">
+                                <h2>How It Works</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. ssa quis enim.</p>
+                                <p>
+                                    <a href="#" class="lnkMore">Read more &raquo;</a></p>
+                            </div>
+                        </div>
+                        <!--}BLOCK-->
+
+                    </div>
+                </div>
+                <div class="right" id="home-right">
+                    <h1>Why InnerBath?</h1>
+                    <div id="why-inner-bath-wrapper">
+                        <div class="top">&nbsp;</div>
+                        <div class="main">
+
+                            <ul>
+                                <li>1/4 Cost of replacing</li>
+                                <li>10 year Guarantee</li>
+                                <li>No Re-tiling</li>
+                                <li>No Plumbing</li>                                
+                                <li>No Fumes</li>                                
+                                <li>Use Same Day</li>
+                            </ul>
+
+                        </div>
+                        <div class="bottom">&nbsp;</div>
+                    </div>
+                    <h1>What's New</h1>
+                    <div id="what-s-new-wrapper">
+                        <div class="top">&nbsp;</div>
+                        <div class="item">
+                            <a href="#" class="title">Lorem ipsum dolorsa. Cum sociis natoque.</a>
+                            <label class="date">05/07/2011</label>
+                        </div>
+                        <div class="item" class="title">
+                            <a href="#"  class="title">Lorem Penatibus et magnis dis parturient montes, nascetur ridiculus mus. ipsum dolorsa. Cum sociis natoque.</a>
+                            <label class="date">05/07/2011</label>
+                        </div>
+                        <div class="item">
+                            <a href="#" class="title">Lorem ipsu Peent montes, nascetur ridiculus mus.m dolorsa. Cum sociis natoque.</a>
+                            <label class="date">05/07/2011</label>
+                        </div>
+
+
+                        <div class="bottom"><a href="#" class="lnkMore right" id="lnkAllNews">&raquo; All news</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--}BODY-->
+        <div class="clr">
+        </div>
+        <!--FOOTER{-->
+        <div id="footer-bg" class="center">
+            <div class="center-wrapper" id="footer-wrapper">
+                <div class="left" id="footer-left">
+                    <div id="footer-sitemap">
+                        <ul>
+                            <li class="first"><a href="#" class="lnkMenuMain">
+                                    Products & Services
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Before & After
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    How it works
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    FAQ
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Testimonials
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Comparison Chart
+                                </a></li>
+                            <li><a href="#" class="lnkMenuMain">
+                                    Quotation
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Business Opportunities
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="clr">
+                    </div>
+                    <div id="footer-contact">
+                        <a href="#" class="contact">
+                            CONTACT US: 
+                        </a>
+                        <a href="#">Head Office</a>
+                    </div>
+                </div>
+                <div class="right" id="footer-right">
+                    <div id="footer-copyright">&copy;Copyright InnerBath Pty, 2011. All rights reserved.</div>
+                    <div class="clr"></div>
+                    <div id="footer-seo"><a href="#">Website</a> by <a href="#">Sigmapps</a></div>
+                </div>
+            </div>
+        </div>
+        <!--}FOOTER-->
+
+
+
+
+
+    </body>
+</html>

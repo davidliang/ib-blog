@@ -1,0 +1,360 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link rel="stylesheet" type="text/css" media="all" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/menu.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/jquery_ctrls.css"/>
+
+        <link rel="stylesheet" type="text/css" media="all" href="css/chrome_hack.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/ie_hack.css"/>
+
+
+        <script type="text/javascript" src="js/jquery-1.6.4.js"></script>
+        <script type="text/javascript" src="js/jquery.watermark.min.js"></script>
+        <script type="text/javascript" src="js/HomeUI.js"></script>
+
+        <script type="text/javascript">
+
+            $(function () {
+                HomeUI.init();
+
+            });
+        </script>
+
+    </head>
+    <body>
+        <!--HEADER{-->
+        <div id="header-bg" class="center">
+            <div class="center-wrapper">
+                <a href="#" id="logo" class="left"></a>
+                <div id="phone" class="left">
+                    <a href="tel:13000000" id="lnkTelEn"></a>
+                    <a href="tel:13000000" id="lnkTelNum"></a>
+                </div>
+                <div id="search-n-btns" class="right">
+                    <div id="search-wrapper">
+                        <div id="tbSearch-bg" class="left">
+                            <input type="text" value="" id="tbSearch" name="tbSearch" class=""></input>
+                        </div>
+                        <a href="#" class="left" id="btnSearch"></a>
+                    </div>
+                    <div class="clr"></div>
+                    <div id="btns-wrapper">
+                        <a href="#" id="btnHome" name="btnHome" class="btn-s left">Home</a>
+                        <a href="#" id="btnWhatsNew" name="btnWhatsNew" class="btn-s left">What's New</a>
+                        <a href="#" onclick="HomeUI.toggleContactList();" id="btnContact" name="btnContact" class="btn-s"><span>Contact Us</span></a>
+                        <div id="contact-list" style="display:none;">
+                            <ul>
+                                <li><a href="#">Head Office</a></li>
+                                <li><a href="#">VIC</a></li>
+                                <li><a href="#">NSW</a></li>
+                                <li><a href="#">QLD</a></li>
+                                <li><a href="#">SA</a></li>
+                                <li><a href="#">WA</a></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <!--}HEADER-->
+
+        <!--MENU{-->
+        <div id="menu-bg" class="center">
+            <div class="center-wrapper" id="menu-wrapper">
+                <ul>
+                    <li class="first"><a href="#" class="lnkMenuMain">
+                            Products & Services
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Before & After
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            How it works
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            FAQ
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Testimonials
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Comparison Chart
+                        </a></li>
+                    <li><a href="#" class="lnkMenuMain">
+                            Quotation
+                        </a></li>
+
+                    <li><a href="#" class="lnkMenuMain">
+                            Business Opportunities
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--}MENU-->
+
+
+        <!--BODY{-->
+        <div id="main-bg" class="center">
+            <div class="center-wrapper" id="inner-wrapper">
+                <!--INNER BANNER{-->
+                <div id="inner-banner-bg" class="center">
+                    <img src="images/inner_banner3.jpg"/>
+                </div>
+                <!--}INNER BANNER-->
+                <div class="clr"></div>
+                <div class="left" id="inner-left">
+
+                    <!--GENERAL CONTENTS{-->
+                    <div class="contents-temp">
+                        <h1>Curabitur ullamcorper ultricies nisi</h1>
+                        <h2>Adasdf sde nisi</h2>
+                        <p>Curabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisi</p>
+
+                        <h3>Adasdf sde nisi</h3>
+                        <p>Curabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisi</p>
+                        <p>
+                            <img src="images/inner_img1.jpg"/>
+                            Curabitur ullamcorper <a href="#">ultricies nisiCurabitur</a> ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisiCurabitur ullamcorper ultricies nisi
+                        <ul>
+                            <li>itur ullamcorper</li>
+                            <li><a href="#">ultricies nisiCurabitur</a></li>
+                            <li>itur ullamcorper</li>
+                            <li>itur ullamcorper</li>
+                            <li>itur ullamcorper</li>
+                        </ul>
+
+                        </p>
+
+                    </div>
+                    <!--}GENERAL CONTENTS-->
+
+
+
+                    <!--FORM{-->
+                    <input type="text" value ="abcd" name="tb" id="tb"></input>
+
+                    <a class="btnSubmit">Send Enquiry</a>
+                    <a class="btnCancel">Cancel</a>
+
+                    <!--}FORM-->
+
+
+
+                    <!-- A TESTIMONIAL {-->
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-contents">
+                            <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                            <p></p>
+
+                            <div class="testimonial-author"><label class="person-name">Person Name</label>
+                                <label class="company-name">Company Name</label></div>
+                        </div>
+
+                    </div>
+                    <div class="clr"></div>
+                    <!--} A TESTIMONIAL -->
+
+                    <!-- A TESTIMONIAL {-->
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-contents">
+                            <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                            <p></p>
+
+                            <div class="testimonial-author"><label class="person-name">Person Name</label>
+                                <label class="company-name">Company Name</label></div>
+                        </div>
+
+                    </div>
+                    <div class="clr"></div>
+                    <!--} A TESTIMONIAL -->
+
+                    <!-- A TESTIMONIAL {-->
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-contents">
+                            <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                            <p></p>
+
+                            <div class="testimonial-author"><label class="person-name">Person Name</label>
+                                <label class="company-name">Company Name</label></div>
+                        </div>
+
+                    </div>
+                    <div class="clr"></div>
+                    <!--} A TESTIMONIAL -->
+
+                    <a href="#top" class="back2top">Back to Top</a>
+
+
+                </div>
+                <div class="right" id="inner-right">
+
+                    <div class="inner-side-bar inner-gray">
+                        <div class="top">&nbsp;</div>
+                        <div class="main">
+                            <div class="gap">
+                                <h1>WHY INNERBATH?</h1>
+                                <ul>
+                                    <li>1/4 Cost of replacing</li>
+                                    <li>10 year Guarantee</li>
+                                    <li>No Re-tiling</li>
+                                    <li>No Plumbing</li>
+                                    <li>No Fumes</li>
+                                    <li>Use Same Day</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom">&nbsp;</div>
+                    </div>
+                    <div class="clr"></div>
+
+
+                    <div class="inner-side-bar inner-light-blue">
+                        <div class="top">&nbsp;</div>
+                        <div class="main">
+                            <div class="gap">
+                                <h1>WHY INNERBATH?</h1>
+                                <ul>
+                                    <li>1/4 Cost of replacing</li>
+                                    <li><a href="#">10 year Guarantee</a></li>
+                                    <li>No Re-tiling</li>
+                                    <li>No Plumbing</li>
+                                    <li>No Fumes</li>
+                                    <li>Use Same Day</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom">&nbsp;</div>
+                    </div>
+                    <div class="clr"></div>
+
+
+
+                    <div class="inner-side-bar inner-light-blue">
+                        <div class="top">&nbsp;</div>
+                        <div class="main">
+                            <div class="gap">
+                                <h1>CONTACT ADDRESS</h1>
+                                <p>
+                                    <b>Inner Bath</b><br/>
+
+                                    PO Box 1234</br>
+                                    Kiah Dr Point Cook
+                                </p>
+                                <hr/>
+                                <h1>EMAIL ADDRESS</h1>
+                                <p>
+                                    <a href="mail:info@innerbath.com.au">info@innerbath.com.au</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom">&nbsp;</div>
+                    </div>
+                    <div class="clr"></div>
+
+
+                    <div class="inner-side-bar">
+                        <div class="top">&nbsp;</div>
+                        <div class="main">
+                            <div class="gap">
+                                <h1>WHY INNERBATH?</h1>
+                                <ul>
+                                    <li>1/4 Cost of replacing</li>
+                                    <li>10 year Guarantee</li>
+                                    <li>No Re-tiling</li>
+                                    <li>No Plumbing</li>
+                                    <li>No Fumes</li>
+                                    <li>Use Same Day</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom">&nbsp;</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--}BODY-->
+        <div class="clr">
+        </div>
+        <!--FOOTER{-->
+        <div id="footer-bg" class="center">
+            <div class="center-wrapper" id="footer-wrapper">
+                <div class="left" id="footer-left">
+                    <div id="footer-sitemap">
+                        <ul>
+                            <li class="first"><a href="#" class="lnkMenuMain">
+                                    Products & Services
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Before & After
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    How it works
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    FAQ
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Testimonials
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Comparison Chart
+                                </a></li>
+                            <li><a href="#" class="lnkMenuMain">
+                                    Quotation
+                                </a></li>
+
+                            <li><a href="#" class="lnkMenuMain">
+                                    Business Opportunities
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="clr">
+                    </div>
+                    <div id="footer-contact">
+                        <a href="#" class="contact">
+                            CONTACT US:
+                        </a>
+                        <a href="#">Head Office</a>
+                    </div>
+                </div>
+                <div class="right" id="footer-right">
+                    <div id="footer-copyright">&copy;Copyright InnerBath Pty, 2011. All rights reserved.</div>
+                    <div class="clr"></div>
+                    <div id="footer-seo"><a href="#">Website</a> by <a href="#">Sigmapps</a></div>
+                </div>
+            </div>
+        </div>
+        <!--}FOOTER-->
+
+
+
+
+
+    </body>
+</html>

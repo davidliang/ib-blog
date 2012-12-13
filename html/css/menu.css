@@ -1,0 +1,50 @@
+
+/* MENU  */
+div#menu-bg
+{
+    width:100%;
+    height: 39px;
+    background-image: url('../images/memu_bg.jpg');
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-color: #3BADC9;
+
+}
+
+div#menu-wrapper
+{
+
+}
+
+div#menu-wrapper ul
+{
+
+}
+
+
+div#menu-wrapper ul li
+{
+    list-style: none;
+    float: left;
+    line-height: 39px;
+    font-weight: 600;
+}
+
+
+div#menu-wrapper ul li a
+{
+    color:white;
+    display: block;
+    padding: 0 14px;
+    background-image:  url('../images/menu_border.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+
+div#menu-wrapper ul li.first
+{
+    background-image: url('../images/menu_border.jpg');
+    background-position: left center;
+    background-repeat: no-repeat
+}
