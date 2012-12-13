@@ -97,6 +97,9 @@ and open the template in the editor.
             <li class=""><a title="Go to the Business Opportunities page" class="lnkMenuMain" href="http://www.innerbath.com.au/business-opportunities/">
                 Business Opportunities
             </a></li>
+                  <li class=""><a title="Go to the Inner Bath Blog page" class="lnkMenuMain" href="http://www.innerbath.com.au/blog">
+                Blog
+            </a></li>
 
         </ul>
     </div>

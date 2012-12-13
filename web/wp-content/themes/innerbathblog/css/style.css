@@ -723,6 +723,7 @@ div#footer-sitemap ul li a
 {
     padding:0 5px;
     display: block;
+    margin:2px;
     border-right: 1px solid #5E727E;
     font-weight: normal;
 }
@@ -755,6 +756,7 @@ div#footer-seo
 {
     color: #A2A3A3;
     float:right;
+    margin-top:4px;
 }
 
 div#footer-seo a
